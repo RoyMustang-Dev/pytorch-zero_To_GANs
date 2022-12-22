@@ -40,33 +40,41 @@ conda install pytorch torchvision torchaudio cpuonly -c pytorch
 .
 ## Getting started with the Codes!!
 &nbsp;
-### Lesson 1: `PyTorch Basics and Gradient Descent`<br/>
+## Lesson 1: `PyTorch Basics and Gradient Descent`<br/>
 **Topics Covered-:**
-1. Tensors
-2. Tensor Operations and Gradients
-3. Interoperability with NumPy
+### 1.1 PyTorch basics: Tensors, Gradients, and Autograd <br/>
+    a. Tensors <br/>
+    b. Tensor Operations and Gradients <br/>
+    c. Torch Functions <br/>
+    d. Interoperability with NumPy <br/> 
+### 1.2 Linear Regression & Gradient Descent <br/>
+    a. Introduction to Linear Regression <br/>
+    b. Training data <br/>
+    c. Linear Regression Model from scratch <br/>
+    d. Loss Function <br/>
+    e. Compute Gradients <br/>
+    f. Adjust Weights and Biases to reduce the Loss <br/>
+    g. Train the Model using Gradient Descent <br/>
+    h. Train Model for multiple Epochs <br/>
+### 1.3 Using PyTorch Modules: nn.Linear & nn.functional <br/>
+    a. Linear Regression using PyTorch Built-ins <br/>
+    b. Dataset and DataLoader <br/>
+    c. nn.Linear <br/>
+    d. nn.functional - Loss Function <br/>
+    e. Optimizer - optim.SGD (Stochastic Gradient Descent) <br/>
+    f. Train the Model <br/>
 &nbsp;
-### Lesson 2: `Gradient Descent and Linear Regression with PyTorch`<br/>
-**Topics Covered-:**
-1. Introduction to Linear Regression
-2. Building a Linear regression model from scratch
-    a. Training Data <br/>
-    b. Loss Function <br/>
-    c. Compute Gradients <br/>
-    d. Adjust Weights and Biases to reduce the loss <br/>
-    e. Train the Model using Gradient Descent <br/>
-    f. Train for Epochs <br/>
 
-3. Linear Regression using PyTorch Built-ins
-    a. Dataset and DataLoader <br/>
-    b. nn.Linear <br/>
-    c. Loss Function <br/>
-    d. Optimizer <br/>
-    e. Train the Model <br/>
-
-### Lesson 3: `PyTorch Basics and Gradient Descent`<br/>
-**Topics Covered-:**
-1. Tensors
-2. Tensor Operations and Gradients
-3. Interoperability with NumPy
+#### ***Note 1:*** The Notebook (pytorch_zero_to_GANs.ipynb) contains some extra learning materials
+    a. Machine Learning vs. Classical Programming <br/>
+    b. Exercises and Further Reading <br/>
+    c. Questions for Review <br/>
+    d. Feed Forward Neural Networks <br/>
 &nbsp;
+## Lesson 2: `Working with Images and Logistic Regression`<br/>
+**Topics Covered-:**
+### 2.1 Training-Validation Split on the MNIST Dataset<br/>
+
+### 2.2 Logistic Regression, Softmax & Cross-Entropy<br/>
+
+### 2.3 Model Training, Evaluation & Sample Predictions<br/>
