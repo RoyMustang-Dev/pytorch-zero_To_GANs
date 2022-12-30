@@ -11,8 +11,8 @@
 ## Creata a New Environment and Activate!!
 
 ```
-conda create -p venv python==3.9 -y
-conda activate venv/
+conda create -p torchvenv python==3.9 -y
+conda activate torchvenv/
 ```
 
 ## Install all the Required Libraries!!
@@ -23,10 +23,16 @@ pip3 install -r requirements.txt
 
 ## Run the below Command to Install PyTorch
 
+*`Note - If you are using Jupyter then follow the below steps to Enbale GPU in your Local Environment before executing the pip-command`*<br/>
+
+* Step 1: Download and Install a supported version of Microsoft Visual Studio using this [link](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030&passive=false)
+* Step 2: Download and Install CUDA Toolkit using this [link](https://developer.nvidia.com/cuda-downloads?)
+
+
 **With GPU**: `for the devices with CUDA enabled GPU`
 
 ```
-conda install pytorch torchvision torchaudio pytorch-cuda=11.6 -c pytorch -c nvidia
+pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu117
 ```
 
 **With CPU**: `for devices with CPU only`
