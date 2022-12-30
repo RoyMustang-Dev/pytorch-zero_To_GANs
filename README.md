@@ -103,9 +103,17 @@ conda install pytorch torchvision torchaudio cpuonly -c pytorch
 
 ## Lesson 3: `Training Deep Neural Networks on a GPU`<br/>
 **Topics Covered-:**
-### 3.1 Multilayer Neural Networks using nn.Module<br/>
-### 3.2 Activation Functions, Non-Linearity & Backprop<br/>
-### 3.3 Training Models faster using Cloud GPUs<br/>
+### 3.1 Activation Functions, Non-Linearity & Backprop<br/>
+    a. Preparing the Dataset <br/>
+    b. Using random_split helper Function <br/>
+    c. Hidden Layers, Activation Functions and Non-Linearity <br/>
+    d. Model <br/>
+### 3.2 Training Models faster using Cloud GPUs(Local GPU in my Case)<br/>
+    a. Checking for all the Available Devices and Versions <br/>
+    b. Using a GPU <br/>
+### 3.3 Experimenting with Hyperparameters to Improve the Model<br/>
+    a. Training the Model <br/>
+    b. Testing with individual images <br/>
 &nbsp;
 
 #### ***Note 3:*** The Notebook (pytorch_zero_to_GANs.ipynb) contains some extra learning materials
