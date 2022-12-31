@@ -120,3 +120,22 @@ conda install pytorch torchvision torchaudio cpuonly -c pytorch
     a. Exercises
     b. Summary and Further Reading
 &nbsp;
+
+## Lesson 4: `Image Classification with Convolutional Neural Networks(CNN)`<br/>
+**Topics Covered-:**
+### 4.1 Working with 3-Channel RGB Images<br/>
+    a. Exploring the CIFAR10 Dataset <br/>
+    b. Training and Validation Datasets <br/>
+### 4.2 Convolutions, Kernels & Features Maps<br/>
+    a. Defining the Model (Convolutional Neural Network) <br/>
+    b. Defining the Kernel Size <br/>
+    c. Using the GPU <br/>
+    d. Training the Model <br/>
+### 4.3 Training Curve, Underfitting & Overfitting<br/>
+    a. Testing with individual images <br/>
+    b. Saving and loading the model <br/>
+&nbsp;
+
+#### ***Note 4:*** The Notebook (pytorch_zero_to_GANs.ipynb) contains some extra learning materials
+    a. Summary and Further Reading/Exercises
+&nbsp;

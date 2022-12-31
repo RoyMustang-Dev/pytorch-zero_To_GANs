@@ -131,3 +131,4 @@ dmypy.json
 
 # Datasets
 data/
+cifar10.tgz
