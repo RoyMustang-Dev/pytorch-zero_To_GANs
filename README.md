@@ -104,16 +104,16 @@ conda install pytorch torchvision torchaudio cpuonly -c pytorch
 ## Lesson 3: `Training Deep Neural Networks on a GPU`<br/>
 **Topics Covered-:**
 ### 3.1 Activation Functions, Non-Linearity & Backprop<br/>
-    a. Preparing the Dataset <br/>
-    b. Using random_split helper Function <br/>
-    c. Hidden Layers, Activation Functions and Non-Linearity <br/>
-    d. Model <br/>
+    a. Preparing the Dataset 
+    b. Using random_split helper Function 
+    c. Hidden Layers, Activation Functions and Non-Linearity 
+    d. Model 
 ### 3.2 Training Models faster using Cloud GPUs(Local GPU in my Case)<br/>
-    a. Checking for all the Available Devices and Versions <br/>
-    b. Using a GPU <br/>
+    a. Checking for all the Available Devices and Versions
+    b. Using a GPU 
 ### 3.3 Experimenting with Hyperparameters to Improve the Model<br/>
-    a. Training the Model <br/>
-    b. Testing with individual images <br/>
+    a. Training the Model 
+    b. Testing with individual images
 &nbsp;
 
 #### ***Note 3:*** The Notebook (pytorch_zero_to_GANs.ipynb) contains some extra learning materials
@@ -124,18 +124,55 @@ conda install pytorch torchvision torchaudio cpuonly -c pytorch
 ## Lesson 4: `Image Classification with Convolutional Neural Networks(CNN)`<br/>
 **Topics Covered-:**
 ### 4.1 Working with 3-Channel RGB Images<br/>
-    a. Exploring the CIFAR10 Dataset <br/>
-    b. Training and Validation Datasets <br/>
+    a. Exploring the CIFAR10 Dataset
+    b. Training and Validation Datasets
 ### 4.2 Convolutions, Kernels & Features Maps<br/>
-    a. Defining the Model (Convolutional Neural Network) <br/>
-    b. Defining the Kernel Size <br/>
-    c. Using the GPU <br/>
-    d. Training the Model <br/>
+    a. Defining the Model (Convolutional Neural Network)
+    b. Kernels and Feature Maps
+    c. Using the GPU 
+    d. Training the Model
 ### 4.3 Training Curve, Underfitting & Overfitting<br/>
-    a. Testing with individual images <br/>
-    b. Saving and loading the model <br/>
+    a. Testing with individual images
+    b. Saving and loading the model
 &nbsp;
 
 #### ***Note 4:*** The Notebook (pytorch_zero_to_GANs.ipynb) contains some extra learning materials
+    a. Summary and Further Reading/Exercises
+&nbsp;
+
+## Lesson 5: `Data Augmentation, Regularization and ResNets`<br/>
+**Topics Covered-:**
+### 5.1 Adding Residual Layers with Batchnorm to CNNs<br/>
+    a. Preparing the CIFAR10 Dataset
+    b. Data Augmentation and Normalization
+    c. Using a GPU
+    d. Model with Residual Blocks and Batch Normalization
+### 5.2 Learning Rate Annealing, Weight Decay & More<br/>
+    a. Training the model
+### 5.3 Training a State-Of-The-Art Model in 5 Minutes<br/>
+    a. Using Adam Optimizer
+    b. Testing with individual images
+&nbsp;
+
+#### ***Note 5:*** The Notebook (pytorch_zero_to_GANs.ipynb) contains some extra learning materials
+    a. Summary and Further Reading/Exercises
+&nbsp;
+
+## Lesson 6: `Generative Adversarial Networks and Transfer Learning`<br/>
+**Topics Covered-:**
+### 5.1 Generating Fake Digits & Anime Faces with GANs<br/>
+    a.  
+    b.  
+### 5.2 Training Generator and Discriminator Networks<br/>
+    a.  
+    b.  
+    c.  
+    d.  
+### 5.3 Transfer Learning for Image Classification<br/>
+    a.  
+    b.  
+&nbsp;
+
+#### ***Note 6:*** The Notebook (pytorch_zero_to_GANs.ipynb) contains some extra learning materials
     a. Summary and Further Reading/Exercises
 &nbsp;
