@@ -132,3 +132,6 @@ dmypy.json
 # Datasets
 data/
 cifar10.tgz
+kaggle.json
+.jovianrc
+oxford-iiit-pet.tgz

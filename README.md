@@ -160,19 +160,22 @@ conda install pytorch torchvision torchaudio cpuonly -c pytorch
 
 ## Lesson 6: `Generative Adversarial Networks and Transfer Learning`<br/>
 **Topics Covered-:**
-### 5.1 Generating Fake Digits & Anime Faces with GANs<br/>
-    a.  
-    b.  
-### 5.2 Training Generator and Discriminator Networks<br/>
-    a.  
-    b.  
-    c.  
-    d.  
-### 5.3 Transfer Learning for Image Classification<br/>
-    a.  
-    b.  
-&nbsp;
-
-#### ***Note 6:*** The Notebook (pytorch_zero_to_GANs.ipynb) contains some extra learning materials
-    a. Summary and Further Reading/Exercises
+### 6.1 Generating Fake Digits & Anime Faces with GANs<br/>
+    a. Introduction to Generative Modeling
+    b. Downloading and Exploring the Data 
+### 6.2 Training Generator and Discriminator Networks<br/>
+    a. Using a GPU
+    b. Discriminator Network 
+    c. Generator Network 
+    d. Discriminator Training
+    e. Generator Training
+    f. Full Training Loop 
+### 6.3 Transfer Learning for Image Classification<br/>
+    a. Downloading the Dataset 
+    b. Creating a Custom PyTorch Dataset
+    c. Creating Training and Validation Sets
+    d. Modifying a Pretrained Model (ResNet34)
+    e. GPU Utilities and Training Loop
+    f. Finetuning the Pretrained Model
+    g. Training a model from scratch 
 &nbsp;
